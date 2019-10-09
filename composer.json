@@ -1,0 +1,23 @@
+{
+    "name": "fee/calculator",
+    "type": "project",
+    "autoload": {
+      "psr-4": {
+        "Fee\\Calculator\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Fee\\Calculator\\Tests\\": "tests/"
+      }
+    },
+    "require": {
+        "symfony/console": "^4.3",
+        "symfony/dependency-injection": "^4.3",
+        "phpunit/phpunit": "^7.5",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.11.16"
+    }
+}
